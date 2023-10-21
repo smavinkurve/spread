@@ -12,12 +12,24 @@
 
 .navbar:hover {
 background-color: hotpink;
+text-align: center;
 }
 
 h1 { 
     font-family: Gloock;
-    text-align: left; 
+    text-align: center; 
     font-weight: 400;
-    font-size: 80px;
+    font-size: 128px;
     margin-bottom: 70px;
+    padding: 2rem;
+    margin-top: 20px;
 }
+
+p { 
+    font-family: manrope;
+    text-align: right; 
+    font-weight: 400;
+    font-size: 30px;
+    padding: 2rem;
+    margin: 10px;
+ }
