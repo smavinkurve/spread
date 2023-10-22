@@ -21,16 +21,19 @@ h1 {
     font-family: Gloock;
     text-align: left; 
     font-weight: 400;
-    font-size: 64px;
+    font-size: 84px;
     padding: 2rem;
-    margin: 10rem;
+    margin-right: 200px;
+    margin-left: auto;
 }
 
 p { 
     font-family: manrope;
     text-align: left; 
     font-weight: 400;
-    font-size: medium;
+    font-size: large;
     padding: 2rem;
-    margin: 10px;
+    margin-right: 500px;
+    line-height: 2rem;
+    margin-left: auto;
  }
