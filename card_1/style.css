@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+html{ 
+    background-color: pink;
+}
+.navbar {
+    font-family: Manrope;
+    display: flex;
+	flex-direction: row;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+.navbar:hover {
+background-color: hotpink;
+}
+
+h1 { 
+    font-family: Gloock;
+    text-align: left; 
+    font-weight: 400;
+    font-size: 64px;
+    padding: 2rem;
+    margin: 10rem;
+}
+
+p { 
+    font-family: manrope;
+    text-align: left; 
+    font-weight: 400;
+    font-size: medium;
+    padding: 2rem;
+    margin: 10px;
+ }
