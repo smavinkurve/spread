@@ -7,14 +7,19 @@
     margin-top: 2ch;
     text-align: center;
     width: 50%;
-    padding: 15px;
-    border-radius: 30px;
+    padding: 7px;
+    border-radius: 100px;
     font-family: Manrope;
     display: flex;
 	flex-direction: row;
     background-color: black;
     color: white;
     font-size: 24px;
+}
+
+li {
+    padding: 7px;
+    width: 25%;
 }
 
 .navbar:hover {
@@ -31,7 +36,7 @@ h1 {
     margin-left: auto;
     margin-left: auto;
     margin-bottom: 70px;
-    margin-top: 50px;
+    margin-top: 1ch;
     /* padding: 2rem; */
 }
 
