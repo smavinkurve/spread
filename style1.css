@@ -22,12 +22,8 @@ html{
 }
 
 li {
-    padding: 7px;
+    padding: 5px;
     width: 25%;
-}
-
-.navbar:hover {
-background-color: hotpink;
 }
 
 h1 { 

@@ -22,14 +22,9 @@ html {
 }
 
 li {
-    padding: 7px;
+    padding: 5px;
     width: 25%;
 }
-
-/* .navbar:hover {
-background-color: hotpink;
-text-align: center;
-} */
 
 h1 { 
     font-family: Gloock;
