@@ -3,30 +3,50 @@
 
 @media (min-width: 1280px) {
     h1 {
-        font-size: 120px;
-        margin: 12rem;
+        font-size: 130px;
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+
+    p {
+        font-size: 30px;
     }
 
 }
 
 @media (max-width: 1280px) {
     h1 {
-        font-size: 90px;
-        margin: 10rem;
+        font-size: 100px;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    p {
+        font-size: 24px;
     }
 }
 
 @media (max-width: 768) { 
     h1 {
         font-size: 84px;
-        margin: 5 rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    p {
+        font-size: 20px;
     }
 }
 
 @media (max-width: 375) { 
     h1 {
-        font-size: 40px;
-        margin: 2rem;
+        font-size: 60px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    p {
+        font-size: 16px;
     }
 }
 
@@ -55,7 +75,6 @@ h1 {
     font-family: Gloock;
     text-align: center; 
     font-weight: 400;
-    margin-bottom: 70px;
     margin-top: 1ch;
     padding: 2rem; 
 }
@@ -64,7 +83,4 @@ p {
     font-family: manrope;
     text-align: center; 
     font-weight: 400;
-    font-size: 24px;
-    padding: 2rem;
-    margin: 10px;
  }
