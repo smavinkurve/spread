@@ -3,8 +3,8 @@
 
 @media (min-width: 1280px) {
     h1 {
-        font-size: 130px;
-        width: 100%;
+        font-size: 180px;
+        margin: 12rem;
     }
 
 }
@@ -12,21 +12,21 @@
 @media (max-width: 1280px) {
     h1 {
         font-size: 130px;
-        width: 100%;
+        margin: 10rem;
     }
 }
 
 @media (max-width: 768) { 
     h1 {
         font-size: 84px;
-        width: 60%;
+        margin: 5 rem;
     }
 }
 
 @media (max-width: 375) { 
     h1 {
         font-size: 40px;
-        width: 60%;
+        margin: 2rem;
     }
 }
 
@@ -60,7 +60,6 @@ h1 {
     font-family: Gloock;
     text-align: center; 
     font-weight: 400;
-    margin-left: auto;
     margin-bottom: 70px;
     margin-top: 1ch;
     padding: 2rem; 
