@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
-html{ 
-    background-color: #FFD950;
+html {
+    background-color: #EB4D26;
 }
 
 .navbar {
@@ -21,6 +21,11 @@ html{
     font-size: 24px;
 }
 
+li {
+    padding: 7px;
+    width: 25%;
+}
+
 /* .navbar:hover {
 background-color: hotpink;
 text-align: center;
@@ -28,12 +33,13 @@ text-align: center;
 
 h1 { 
     font-family: Gloock;
-    text-align: center; 
+    text-align: left; 
     font-weight: 400;
-    font-size: 128px;
-    margin-bottom: 70px;
+    font-size: 84px;
     padding: 2rem;
-    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 p { 
