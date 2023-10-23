@@ -1,13 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 130px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 130px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768) { 
+    h1 {
+        font-size: 84px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 375) { 
+    h1 {
+        font-size: 40px;
+        width: 60%;
+    }
+}
+
 .navbar {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2ch;
     text-align: center;
     width: 50%;
-    padding: 7px;
+    padding: 5px;
     border-radius: 100px;
     font-family: Manrope;
     display: flex;
@@ -22,7 +51,7 @@ li {
     width: 25%;
 }
 
-/* .navbar:hover {
+/* li:hover {
 background-color: hotpink;
 text-align: center;
 } */
@@ -31,8 +60,6 @@ h1 {
     font-family: Gloock;
     text-align: center; 
     font-weight: 400;
-    font-size: 130px;
-    width: 100%;
     margin-left: auto;
     margin-bottom: 70px;
     margin-top: 1ch;
@@ -41,9 +68,9 @@ h1 {
 
 p { 
     font-family: manrope;
-    text-align: right; 
+    text-align: center; 
     font-weight: 400;
-    font-size: 30px;
+    font-size: 24px;
     padding: 2rem;
     margin: 10px;
  }
