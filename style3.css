@@ -5,6 +5,71 @@ html {
     background-color: #EB4D26;
 }
 
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 84px;
+        margin-left: 12rem;
+        margin-top: 10rem;
+        /* margin-right: 12rem; */
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 12rem;
+        margin-top: 5rem;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 72px;
+        margin-left: 10rem;
+        margin-top: 5rem;
+        /* margin-right: 10rem; */
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 768) { 
+    h1 {
+        font-size: 64px;
+        margin-left: 5rem;
+        margin-top: 3rem;
+        /* margin-right: 5rem; */
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 5rem;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 375) { 
+    h1 {
+        font-size: 48px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        /* margin-right: 2rem; */
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
 .navbar {
     margin-left: auto;
     margin-right: auto;
@@ -30,18 +95,16 @@ h1 {
     font-family: Gloock;
     text-align: left; 
     font-weight: 400;
-    font-size: 84px;
-    padding: 2rem;
-    margin-right: 200px;
-    margin-left: 50px;
     margin-top: 50px;
+    width: 60%;
 }
 
 p { 
     font-family: manrope;
     text-align: left; 
     font-weight: 400;
-    font-size: 24px;
-    padding: 2rem;
-    margin: 10px;
+    width: 50%;
+    /* padding: 2rem;
+    line-height: 2rem; */
+    /* margin: 30px 400px 0px 50px; */
  }

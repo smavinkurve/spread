@@ -57,16 +57,16 @@ html{
 @media (max-width: 375) { 
     h1 {
         font-size: 48px;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-top: 2rem;
         /* margin-right: 2rem; */
     }
 
     p {
-        font-size: 18px;
-        line-height: 30px;
-        margin-left: 2rem;
-        margin-top: 2rem;
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
 }
 
