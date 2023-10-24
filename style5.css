@@ -91,6 +91,10 @@ li {
     width: 25%;
 }
 
+li:hover {
+    color: #FDE5C1;
+}
+
 h1 { 
     font-family: Gloock;
     text-align: left; 

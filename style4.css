@@ -91,12 +91,16 @@ li {
     width: 25%;
 }
 
+li:hover {
+    color: #7DC5FA;
+}
+
 h1 { 
     font-family: Gloock;
     text-align: left; 
     font-weight: 400;
     margin-top: 50px;
-    width: 60%;
+    width: 65%;
 }
 
 p { 
