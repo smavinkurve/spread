@@ -53,7 +53,7 @@
     }
 }
 
-@media (max-width: 400) { 
+@media (max-width: 375) { 
     h1 {
         font-size: 56px;
         width: 70%;

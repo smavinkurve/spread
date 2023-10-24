@@ -20,6 +20,11 @@ html{
         margin-top: 5rem;
     }
 
+    .navbar {
+        width: 50%;
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width: 1280px) {
@@ -35,6 +40,11 @@ html{
         line-height: 34px;
         margin-left: 10rem;
         margin-top: 5rem;
+    }
+
+    .navbar {
+        width: 70%;
+        font-size: 22px;
     }
 }
 
@@ -52,6 +62,11 @@ html{
         margin-left: 5rem;
         margin-top: 3rem;
     }
+
+    .navbar {
+        width: 70%;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 375) { 
@@ -68,6 +83,11 @@ html{
         margin-left: 1rem;
         margin-top: 1rem;
     }
+
+    .navbar {
+        width: 75%;
+        font-size: 18px;
+    }
 }
 
 .navbar {
@@ -75,15 +95,13 @@ html{
     margin-right: auto;
     margin-top: 2ch;
     text-align: center;
-    width: 50%;
-    padding: 7px;
+    padding: 0.5ch;
     border-radius: 100px;
     font-family: Manrope;
     display: flex;
 	flex-direction: row;
     background-color: black;
     color: white;
-    font-size: 24px;
 }
 
 li {
