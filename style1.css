@@ -78,15 +78,15 @@ html{
     }
 
     p {
-        font-size: 14px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 28px;
         margin-left: 1rem;
         margin-top: 1rem;
     }
 
     .navbar {
         width: 75%;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
