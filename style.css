@@ -12,6 +12,11 @@
         font-size: 30px;
     }
 
+    .navbar {
+        width: 50%;
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width: 1280px) {
@@ -23,6 +28,11 @@
 
     p {
         font-size: 24px;
+    }
+    
+    .navbar {
+        width: 50%;
+        font-size: 22px;
     }
 }
 
@@ -36,18 +46,29 @@
     p {
         font-size: 20px;
     }
+
+    .navbar {
+        width: 50%;
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 400) { 
     h1 {
-        font-size: 120px;
-        margin-left: .5rem;
-        margin-right: .5rem;
+        font-size: 56px;
+        width: 70%;
+        /* margin-left: .5rem;
+        margin-right: .5rem; */
     }
 
     p {
         font-size: 16px;
         margin-top: 10rem;
+    }
+
+    .navbar {
+        width: 75%;
+        font-size: 18px;
     }
 }
 
@@ -56,20 +77,23 @@
     margin-right: auto;
     margin-top: 2ch;
     text-align: center;
-    width: 50%;
-    padding: 5px;
+    padding: 0.5ch;
     border-radius: 100px;
     font-family: Manrope;
     display: flex;
 	flex-direction: row;
     background-color: black;
     color: white;
-    font-size: 24px;
 }
 
 li {
     padding: 7px;
     width: 25%;
+}
+
+li:hover {
+    color: rgb(255, 187, 0);
+
 }
 
 h1 { 
