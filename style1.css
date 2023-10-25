@@ -134,14 +134,15 @@ p {
  }
 
 footer { 
-    text-align: left;
-    padding: 15px;
-    font-family: Manrope;
-    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-family: manrope;
+    margin-top: 3rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-weight: 700;
+}
+.footer-text {
     display: flex;
-	flex-direction: row;
- }
-
- .shanti { 
-    font-size: 16px;
- }
+    justify-content: space-between;
+}
