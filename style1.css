@@ -8,32 +8,65 @@ html{
 .bg-pink { 
     background-color: #EC76BD;
 }
+
+.pink:hover {
+    color: #EC76BD;
+}
+
 .bg-yellow { 
     background-color: #FFD950;
+}
+
+.yellow:hover {
+    color: #FFD950;
 }
 
 .bg-orange { 
     background-color: #EB4D26;
 }
 
+.orange:hover {
+    color: #EB4D26;
+}
+
 .bg-blue { 
     background-color: #7DC5FA;
+}
+
+.blue:hover {
+color: #7DC5FA;
 }
 
 .bg-beige { 
     background-color: #FDE5C1;
 }
 
+.beige:hover {
+    color: #FDE5C1;
+}
+
 .bg-green { 
     background-color: #76F071;
+}
+
+.green:hover {
+    color: #76F071;
 }
 
 .bg-purple { 
     background-color: #D191F8;
 }
 
+.purple:hover {
+    color: #D191F8;
+}
+
 .bg-cyan { 
     background-color: #4FF0F0;
+}
+
+.cyan:hover {
+    color: #4FF0F0;
 }
 
 @media (min-width: 1280px) {
@@ -124,10 +157,6 @@ li {
     width: 25%;
 }
 
-li:hover {
-    color: #EC76BD;
-
-}
 
 h1 { 
     font-family: Gloock;
