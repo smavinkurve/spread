@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 root {
     --typography-base: 16px;
 
@@ -15,46 +16,46 @@ root {
 
 @media (min-width: 1280px) {
     h1 {
-        font-size: 130px;
+        font-size: calc(8 * var(--typography-base));
     }
 
     p {
-        font-size: 30px;
+        font-size: calc(1.8 * var(--typography-base));
     }
 
     .navbar {
         width: 50%;
-        font-size: 24px;
+        font-size: calc(1.5 * var(--typography-base));
     }
 
     .footer-text { 
-        font-size: 18px;
+        font-size: calc(1.2 * var(--typography-base));
     }
 
 }
 
 @media (max-width: 1280px) {
     h1 {
-        font-size: 100px;
+        font-size: calc(6 * var(--typography-base));
     }
 
     p {
-        font-size: 24px;
+        font-size: calc(1.5 * var(--typography-base));
     }
     
     .navbar {
         width: 70%;
-        font-size: 22px;
+        font-size: calc(1.4 * var(--typography-base));
     }
 
     .footer-text { 
-        font-size: 20px;
+        font-size: calc(1.2 * var(--typography-base));
     }
 }
 
 @media (max-width: 768) { 
     h1 {
-        font-size: 84px;
+        font-size: calc(5.2 * var(--typography-base));
     }
 
     p {
@@ -63,31 +64,31 @@ root {
 
     .navbar {
         width: 70%;
-        font-size: 20px;
+        font-size: calc(1.2 * var(--typography-base));
     }
 
     .footer-text { 
-        font-size: 20px;
+        font-size: calc(1.2 * var(--typography-base));
     }
 }
 
 @media (max-width: 375) { 
     h1 {
-        font-size: 56px;
+        font-size: calc(2 * var(--typography-base));
         width: 70%;
     }
 
     p {
-        font-size: 16px;
+        font-size: var(--typography-base);
     }
 
     .navbar {
         width: 75%;
-        font-size: 18px;
+        font-size: calc(1.2 * var(--typography-base));
     }
 
     .footer-text { 
-        font-size: 20px;
+        font-size: font-size: calc(1.2 * var(--typography-base));
     }
 }
 
