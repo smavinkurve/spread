@@ -1,72 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
-html{ 
-    background-color: #ffffff;
+root {
+    --typography-base: 16px;
+    
+    --pink: #EC76BD;
+    --yellow: #FFD950;
+    --orange: #EB4D26;
+    --blue:#7DC5FA;
+    --beige: #FDE5C1;
+    --green:#76F071;
+    --purple: #D191F8;
+    --cyan: #4FF0F0;
 }
 
 .bg-pink { 
-    background-color: #EC76BD;
+    background-color: var(--pink);
 }
 
 .pink:hover {
-    color: #EC76BD;
+    color: var(--pink);
 }
 
 .bg-yellow { 
-    background-color: #FFD950;
+    background-color: var(yellow);
 }
 
 .yellow:hover {
-    color: #FFD950;
+    color: var(yellow);
 }
 
 .bg-orange { 
-    background-color: #EB4D26;
+    background-color: var(--orange);
 }
 
 .orange:hover {
-    color: #EB4D26;
+    color: var(--orange);
 }
 
 .bg-blue { 
-    background-color: #7DC5FA;
+    background-color: var(--blue);
 }
 
 .blue:hover {
-color: #7DC5FA;
+color: var(--blue);
 }
 
 .bg-beige { 
-    background-color: #FDE5C1;
+    background-color: var(--beige);
 }
 
 .beige:hover {
-    color: #FDE5C1;
+    color: var(--beige);
 }
 
 .bg-green { 
-    background-color: #76F071;
+    background-color: var(--green);
 }
 
 .green:hover {
-    color: #76F071;
+    color: var(--green);
 }
 
 .bg-purple { 
-    background-color: #D191F8;
+    background-color: var(--purple);
 }
 
 .purple:hover {
-    color: #D191F8;
+    color: var(--purple);
 }
 
 .bg-cyan { 
-    background-color: #4FF0F0;
+    background-color: var(--cyan);
 }
 
 .cyan:hover {
-    color: #4FF0F0;
+    color: var(--cyan);
 }
 
 @media (min-width: 1280px) {
