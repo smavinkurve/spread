@@ -15,6 +15,10 @@
         font-size: 24px;
     }
 
+    .footer-text { 
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 1280px) {
@@ -30,6 +34,10 @@
         width: 70%;
         font-size: 22px;
     }
+
+    .footer-text { 
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 768) { 
@@ -43,6 +51,10 @@
 
     .navbar {
         width: 70%;
+        font-size: 20px;
+    }
+
+    .footer-text { 
         font-size: 20px;
     }
 }
@@ -60,6 +72,10 @@
     .navbar {
         width: 75%;
         font-size: 18px;
+    }
+
+    .footer-text { 
+        font-size: 20px;
     }
 }
 
@@ -125,6 +141,8 @@ p {
 }
 .footer-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: rgb(255, 102, 0);
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
