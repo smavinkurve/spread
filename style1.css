@@ -2,7 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 html{ 
-    background-color: #EC76BD;
+    background-color: #ffffff;
+}
+
+.bg-yellow { 
+    background-color: #FFD950;
+}
+
+.bg-orange { 
+    background-color: #EB4D26;
+}
+
+.bg-blue { 
+    background-color: #7DC5FA;
+}
+
+.bg-beige { 
+    background-color: #FDE5C1;
+}
+
+.bg-green { 
+    background-color: #76F071;
+}
+
+.bg-purple { 
+    background-color: #D191F8;
+}
+
+.bg-cyan { 
+    background-color: #4FF0F0;
 }
 
 @media (min-width: 1280px) {
