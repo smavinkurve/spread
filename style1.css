@@ -3,6 +3,7 @@
 
 :root {
     --typography-base: 16px;
+    --spacing: 10px;
     
     --pink: #EC76BD;
     --yellow: #FFD950;
