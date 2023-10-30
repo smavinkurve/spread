@@ -176,6 +176,20 @@ color: var(--blue);
     }
 }
 
+@media print {
+    :root {
+        background-color: var(--white);
+    }
+
+    body {
+        color: var(--darkgrey);
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
 
 .navbar {
     margin-left: auto;

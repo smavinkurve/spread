@@ -12,6 +12,8 @@
     --green:#76F071;
     --purple: #D191F8;
     --cyan: #4FF0F0;
+    --white: #FFFFFF;
+    --darkgrey: #0B0B0B;
 }
 
 @media (min-width: 1280px) {
@@ -92,6 +94,20 @@
     }
 }
 
+@media print {
+    :root {
+        background-color: var(--white);
+    }
+
+    body {
+        color: var(--darkgrey);
+    }
+
+    .navbar {
+        display: none;
+    }
+    
+}
 
 .navbar {
     margin-left: auto;
@@ -103,8 +119,8 @@
     font-family: Manrope;
     display: flex;
 	flex-direction: row;
-    background-color: black;
-    color: white;
+    background-color: var(--darkgrey);
+    color: var(--white);
 }
 
 li {
