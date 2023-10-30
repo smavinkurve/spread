@@ -189,7 +189,7 @@ color: var(--blue);
 
     body {
         color: var(--darkgrey);
-        font-size: calc(0.6* var(--typography-base));
+        font-size: calc(0.3 * var(--typography-base));
     }
 
     nav {
