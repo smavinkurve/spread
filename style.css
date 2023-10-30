@@ -88,17 +88,10 @@
     }
 
     .footer-text { 
-        font-size: font-size: calc(1.2 * var(--typography-base));
+        font-size: calc(1.2 * var(--typography-base));
     }
 }
 
-.bg-pink {
-    background: hotpink;
-}
-
-.bg-pink li {
-    color: red;
-}
 
 .navbar {
     margin-left: auto;
