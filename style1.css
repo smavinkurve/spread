@@ -187,9 +187,9 @@ color: var(--blue);
         width: 80%;
     }
 
-    body {
+    p {
+        font-size: var(--typography-base);
         color: var(--darkgrey);
-        font-size: calc(0.3 * var(--typography-base));
     }
 
     nav {
