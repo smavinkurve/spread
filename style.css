@@ -88,7 +88,7 @@
     }
 
     .footer-text { 
-        font-size: calc(.5 * var(--typography-base));
+        font-size: calc(0.8 * var(--typography-base));
     }
 }
 
