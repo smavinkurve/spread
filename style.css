@@ -72,7 +72,7 @@
     }
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 400px) { 
     h1 {
         font-size: calc(3 * var(--typography-base));
         width: 70%;
@@ -88,7 +88,7 @@
     }
 
     .footer-text { 
-        font-size: calc(0.8 * var(--typography-base));
+        font-size: calc(0.5 * var(--typography-base));
     }
 }
 
@@ -152,5 +152,5 @@ p {
 }
 
 .footer-section { 
-    width: 350px;
+    width: 85%;
 }

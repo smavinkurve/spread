@@ -130,7 +130,7 @@ color: var(--blue);
 }
 }
 
-@media (max-width: 768) { 
+@media (max-width: 768px) { 
     h1 {
         font-size: calc(4 * var(--typography-base));
     }
@@ -151,13 +151,13 @@ color: var(--blue);
     }
 }
 
-@media (max-width: 375) { 
+@media (max-width: 400px) { 
     h1 {
         font-size: 30px;
     }
 
     p {
-        width: 90%;
+        width: 80%;
         font-size: var(--typography-base);
         line-height: 28px;
     }
@@ -168,7 +168,7 @@ color: var(--blue);
     }
 
     .footer-text { 
-        font-size: calc(0.8 * var(--typography-base));
+        font-size: calc(0.6 * var(--typography-base));
     }
 }
 
@@ -212,16 +212,21 @@ p {
     /* Check the margin on the left, reduce it to make it better */
  }
 
-footer { 
-    text-align: left;
+ footer { 
     font-family: manrope;
-    margin-top: 10%;
-    margin-bottom: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
     font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .footer-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: left;
+    color: black;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.footer-section { 
+    width: 85%;
 }
