@@ -105,8 +105,10 @@ color: var(--blue);
         font-size: calc(1.5 * var(--typography-base));
     }
 
-    .footer-text { 
+    footer { 
         font-size: calc(1.2 * var(--typography-base));
+        margin-top: calc(8 * var(--spacing));
+        margin-bottom: calc(2 * var(--spacing));
     }
 
 }
@@ -128,9 +130,12 @@ color: var(--blue);
         font-size: calc(1.4 * var(--typography-base));
     }
 
-    .footer-text { 
+    footer { 
         font-size: calc(1.2 * var(--typography-base));
-}
+        margin-top: calc(5 * var(--spacing));
+        margin-bottom: calc(2 * var(--spacing));
+    }
+
 }
 
 @media (max-width: 768px) { 
@@ -150,8 +155,10 @@ color: var(--blue);
         font-size: calc(1.3 * var(--typography-base));
     }
 
-    .footer-text { 
-        font-size: calc(1.2 * var(--typography-base));
+    footer { 
+        font-size: calc(0.8 * var(--typography-base));
+        margin-top: calc(8 * var(--spacing));
+        margin-bottom: calc(2 * var(--spacing));
     }
 }
 
@@ -172,8 +179,10 @@ color: var(--blue);
         font-size: var(--typography-base);
     }
 
-    .footer-text { 
-        font-size: calc(0.6 * var(--typography-base));
+    footer { 
+        font-size: calc(.6 * var(--typography-base));
+        margin-top: calc(5 * var(--spacing));
+        margin-bottom: calc(2 * var(--spacing));
     }
 }
 
