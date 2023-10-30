@@ -88,6 +88,7 @@ color: var(--blue);
 
 @media (min-width: 1280px) {
     h1 {
+        width: 60%;
         font-size: calc(5.2 * var(--typography-base));
     }
 
@@ -111,6 +112,7 @@ color: var(--blue);
 
 @media (max-width: 1280px) {
     h1 {
+        width: 60%;
         font-size: calc(4.5 * var(--typography-base));
     }
 
@@ -132,11 +134,12 @@ color: var(--blue);
 
 @media (max-width: 768px) { 
     h1 {
+        width: 70%;
         font-size: calc(4 * var(--typography-base));
     }
 
     p {
-        width: 50%;
+        width: 70%;
         font-size: calc(1.2 * var(--typography-base));
         line-height: 28px;
     }
@@ -153,6 +156,7 @@ color: var(--blue);
 
 @media (max-width: 400px) { 
     h1 {
+        width: 70%;
         font-size: 30px;
     }
 
@@ -171,6 +175,7 @@ color: var(--blue);
         font-size: calc(0.6 * var(--typography-base));
     }
 }
+
 
 .navbar {
     margin-left: auto;
@@ -198,7 +203,6 @@ h1 {
     font-weight: 400;
     margin-top: 5%;
     margin-left: 10%;
-    width: 60%;
     padding: none;
 }
 
@@ -217,6 +221,7 @@ p {
     font-weight: 700;
     margin-top: 50px;
     margin-bottom: 20px;
+    margin-left: 40px;
 }
 .footer-text {
     display: flex;
