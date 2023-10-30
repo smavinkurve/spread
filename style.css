@@ -29,7 +29,7 @@
     }
 
     .footer-text { 
-        font-size: calc(1.2 * var(--typography-base));
+        font-size: calc(.8 * var(--typography-base));
     }
 
 }
@@ -49,7 +49,7 @@
     }
 
     .footer-text { 
-        font-size: calc(1.2 * var(--typography-base));
+        font-size: calc(.8 * var(--typography-base));
     }
 }
 
@@ -68,13 +68,13 @@
     }
 
     .footer-text { 
-        font-size: calc(1.2 * var(--typography-base));
+        font-size: calc(.5 * var(--typography-base));
     }
 }
 
 @media (max-width: 375px) { 
     h1 {
-        font-size: calc(2 * var(--typography-base));
+        font-size: calc(3 * var(--typography-base));
         width: 70%;
     }
 
@@ -88,7 +88,7 @@
     }
 
     .footer-text { 
-        font-size: calc(1.2 * var(--typography-base));
+        font-size: calc(.5 * var(--typography-base));
     }
 }
 
@@ -137,18 +137,20 @@ p {
  }
 
  footer { 
-    text-align: left;
     font-family: manrope;
-    margin-top: 7%;
-    margin-bottom: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
     font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .footer-text {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     color: var(--orange);
     padding-right: 2rem;
     padding-left: 2rem;
+}
+
+.footer-section { 
+    width: 350px;
 }
