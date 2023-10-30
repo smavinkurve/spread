@@ -3,6 +3,7 @@
 
 :root {
     --typography-base: 16px;
+    --spacing: 10px;
 
     --pink: #EC76BD;
     --yellow: #FFD950;
@@ -31,9 +32,10 @@
     }
 
     .footer-text { 
-        font-size: calc(.8 * var(--typography-base));
+        font-size: calc(1.3 * var(--typography-base));
+        margin-top: calc(8 * var(--spacing));
+        margin-bottom: calc(2 * var(--spacing));
     }
-
 }
 
 @media (max-width: 1280px) {
@@ -166,8 +168,6 @@ p {
  footer { 
     font-family: manrope;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 20px;
 }
 .footer-text {
     display: flex;
