@@ -99,11 +99,21 @@
         background-color: var(--white);
     }
 
+    h1 {
+        margin-top: 100px;
+        font-size:calc(4* var(--typography-base));
+        width: 80%;
+    }
+
     body {
         color: var(--darkgrey);
     }
 
-    .navbar {
+    nav {
+        display: none;
+    }
+
+    footer {
         display: none;
     }
     
