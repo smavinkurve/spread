@@ -101,9 +101,18 @@
     }
 
     footer { 
-        font-size: calc(.6 * var(--typography-base));
+        font-size: calc(.7 * var(--typography-base));
         margin-top: calc(5 * var(--spacing));
         margin-bottom: calc(2 * var(--spacing));
+    }
+
+    .footer-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section { 
+        padding-top: calc(1 * var(--spacing)) ;
     }
 }
 
