@@ -120,7 +120,7 @@ color: var(--blue);
     }
 
     .footer-section { 
-        padding-top: calc(2.5 * var(--spacing)) ;
+        padding-top: calc(4 * var(--spacing)) ;
         padding-right: calc(1 * var(--spacing)) ;
     }
 }
